@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Teotia's Mini Project</title>
+    <link rel="stylesheet" type="text" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   <style>
+   *{
+    text-decoration: none;
+    
+  
+  animation-name: anim;
+  animation-duration: 0.5s;
+  animation-iteration-count: 0;
+  
+   }
+
+
+@keyframes anim {
+  0%   {background-color:rgb(232, 186, 17); ;}
+  10%  {background-color:rgb(157, 255, 0);}
+  20%  {background-color:rgb(16, 175, 254); }
+  30%  {background-color:green;}
+  40% {background-color:rgba(226, 226, 13, 0.619),white;}
+  50%   {background-color:rgb(7, 234, 143); }
+  60%  {background-color:yellow;}
+  70%  {background-color:rgba(0, 255, 34, 0.192); }
+  80%  {background-color:green;}
+  90%  {background-color:yellow;}
+  
+  100% {background-color:rgb(13, 168, 196),white;}
+}
+
+
+
+.bottomleft {
+  position: absolute;
+  top:550px;
+  
+ border-radius:5px;
+  font-size: 50px;
+  background: rgb(31, 135, 225);
+  
+  
+}
+
+#heading{
+  padding-left: 5px;
+}
+
+#logo{
+  width:100%;
+  border-radius: 30px;
+  animation: filter 2s infinite;
+}
+
+@keyframes filter {
+  50% {
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
+  }
+}
+    
+
+#navi{
+background-color: rgb(31, 135, 225);
+width:100%;
+height : 80px;
+border-radius: 15px;
+
+}
+
+#list{
+  padding-top: 5px;
+  float: right;
+  margin-right: 20px;
+    }
+#label{
+  font-size: 37px;
+  color: white;
+  padding: 0 50px;
+  line-height: 80px;
+  font-weight: bold;
+
+  }
+ul li{
+  
+  display: inline-block;
+  margin: 0PX 5px 5PX;
+      
+    }
+  
+marquee{
+  color : rgb(238, 242, 244);
+  background:rgb(5, 1, 1);
+  height:0.5cm;
+  font-size: 20px;
+  border-radius: 15px;
+    }
+
+.color{
+  color: aliceblue;
+  text-shadow: 10px;
+
+}
+
+#IMAGES{
+  align-items: center;
+  padding:50PX;
+  color: rgb(5, 6, 8);
+  text-shadow: -1px 0 rgb(239, 237, 237), 0 1px rgb(247, 243, 243), 1px 0 rgb(250, 244, 244), 0 -1px rgb(244, 234, 234);
+  font-size: 25PX;
+  
+  
+}
+
+li a{
+  color:white;
+
+}
+
+
+li a:hover{
+        
+  color: rgb(8, 11, 8);
+    
+}
+    
+.img{
+  width:11cm;
+  height:5cm;
+  padding: 10px;
+  box-shadow: 0 5px 12px 0 rgba(237, 231, 231, 0.934), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+  
+}
+  
+
+.imgP{
+max-height: fit-content;
+border-radius: 30PX;
+padding:15PX;
+height: 10CM;
+WIDTH:10CM;
+border-radius: ;
+
+}
+
+
+   
+
+#INFO{
+  padding-left: 30PX;
+  padding-right: 20PX;
+
+}
+#ABOUT_US{
+padding-bottom: 10PX;
+
+}
+#fee{
+padding:25px
+
+
+
+}
+#FACILITIES{
+padding-left: 25PX;
+padding: 25PX ;
+
+
+}
+#admission_form{
+  
+border-color: black;
+border-radius: 30px;
+background:radial-gradient(rgb(31, 135, 225),BLACK);
+
+}
+
+#FOOTER{
+  WIDTH:100%;
+  HEIGHT:16.5cm;
+  background-color:#2d2d2d;
+  border:4;
+  border-color: black;
+  padding: none;
+}
+
+#register{
+  
+  font-family: Calibri; 
+  color:white;
+  font-size: 11pt; 
+  
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: #070708 px 50PX 24PX;
+
+ 
+ 
+}
+
+.dropbtn {
+  background-color:rgb(31, 135, 225);
+  color: white;
+ padding: 5PX;
+  font-size: 23px;
+  font-weight:500;
+  border: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 9px 16px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+#LINKS{
+
+  COLOR:#0AA6EF;
+}
+    </style>
+   
+    
+</head>
+<body>
+    <div id=heading>
+     <CENTER><img id="logo" src="sanskar header.png"></CENTER>
+     <div class="bottomleft">WELCOME TO SANSKAR  EDUCATIONAL  GROUP</div>
+    </div>
+   <nav id="navi">
+    <label id="label">SGIT</label>
+    <ul id =list>
+    
+  <li>
+  <li><div class="dropdown">
+    <div class="dropbtn"><A HREF=""> <i class="fa fa-home" style="font-size:24px"></i>&nbsp;HOME</A></div>
+    <div class="dropdown-content">
+      
+    </div>
+  </div></li>
+&nbsp;
+  
+  <li><div class="dropdown">
+    <div class="dropbtn"><A HREF="#ABOUT_US">ABOUT US</A></div>
+    <div class="dropdown-content">
+      
+    </div>
+  </div></li>
+
+  &nbsp;
+  <li><div class="dropdown">
+    <div class="dropbtn"><A HREF=""><A HREF="#fee">COURSES</A></div>
+    <div class="dropdown-content">
+      <a href="BTECH.HTML">BTECH</a>
+      <a href="MBA.HTML">MBA</a>
+      
+      <a href="BARCH.HTML">B.ARCH</a>
+      <a href="POLYTECHNIC.HTML">POLYTECHNIC</a>
+      <a href="BCA.HTML">BCA</a>
+      <a href="BPHARMA.HTML">B.PHARMA</a>
+    </div>
+  </div></li>
+  &nbsp;
+  <li><div class="dropdown">
+    <div class="dropbtn"><A HREF="#FACILITIES">FACILITIES</A></div>
+    <div class="dropdown-content">
+      
+    </div>
+  </div></li>
+
+  
+  &nbsp;
+  <li><div class="dropdown">
+    <div class="dropbtn"><i class="fa fa-picture-o" style="font-size:22px"></i>&nbsp;GALLERY</div>
+    <div class="dropdown-content">
+      <a href="#IMG">IMAGES</a>
+      <a href="#VIDEO_section">VIDEOS</a>
+    
+    </div>
+  </div></li>
+  &nbsp;
+  <li><div class="dropdown">
+    <div class="dropbtn"><A HREF="#admission_form">ADMISSION</A></div>
+    <div class="dropdown-content">
+      
+    </div>
+  </div></li>
+
+
+</ul>
+<MARquee>ADMISSION OPEN 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;ADMISSION OPEN 2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;ADMISSION OPEN 2023</MARquee>
+        <br><br>
+    </nav>
+    <BR>
+      
+      <br>
+      <DIV ID="image_section">
+        <hr color="white">
+           
+        <DIV  ID="notice"><iframe src="notice.html" frameborder="5" ALIGN="RIGHT" height="330px" width="400px"></iframe></DIV>
+        <BR>
+ 
+           <hr HEIGHT="50PX" color="black">
+        <DIV ID="INFO">
+           <P>
+            <HEADER ID="ABOUT_US"><u><b><FONT SIZE="6CM"><BR>ABOUT US</FONT></b></u></HEADER>Sanskar Educational Group (SEG), Ghaziabad was established
+               in 2005 and is affiliated and approved by AICTE, PCI, CoA and affiliated to AKTU.<BR> It offers undergraduate, postgraduate, research level
+                 and diploma programs in the disciplines of Engineering & Technology, Management, Pharmacy and Architecture.<BR> Admission to SEG Admission 
+                  is done on the basis of various entrance exams. In addition to this, the institute also provides 100% placement assistance to the 
+                  students.<BR> More than 200 students got placed through pool campus drives and more than 75 companies visited for on-campus recruitment.
+             <BR>Some of the top recruiters are Tech Mahindra, Aryson Technologies, Bajaj Capital Ltd., Justdial, HCL Technologies, etc.</P>
+           </DIV>
+           <BR>
+         
+
+            <div id="INFO">
+            <H3>Vision:</H3>To groom young minds, hone their technical and managerial skills, liberate their talent and commitment and seek quality,
+             innovation and creativity in them so as to prepare them to face challenges of life in the professions they choose. SGIT is committed to 
+             groom professionals par excellence. The institute has all the necessary infrastructure and facilities for imparting quality education in 
+             the field of technology as well as that of management. Apart from excellence of academic delivery, we at SGIT do our best to inculcate 
+             the qualities facilitating the entry into the corporate world. With student centric academic & operational philosophy, we ensure that 
+             our students grow academically, professionally, socially as well as spiritually in a stimulating campus environment.
+           
+
+             <H3>Mission:</H3>
+            Our mission is to prepare the most competent and ingenious technocrats. Our foray into the world of Engineering, Technology, pharmacy 
+            and management is a means for facilitating higher education, training and research activities that affect the industrial development 
+            and economic growth of our nation. Simultaneously, it is our intent to contribute towards the goals of setting new trends internationally.
+             We believe in power of education and we believe in imparting education thoroughly and impartially. We strive to grow from strength to
+              strength as we traverse new horizons every day, by fusing intellect into wisdom ,sharpening perspective and weaving values into our dynamism.
+</div>
+           </center><hr HEIGHT="50PX" color="black">
+      </DIV>
+
+      <div id="fee">
+            <HEADER ID="ABOUT_US"><u><b><FONT SIZE="6CM">FEE-STRUCTURE AND ELIGIBILITY</FONT></b></u></HEADER>
+            <br><br>
+        <center>
+            <table border="2" bordercolor="gray " cellpadding="50" cellspacing="0" CELLWIDTH="300PX">
+            <tr><td bgcolor="#8bbdc4"><font color="WHITE" size="5px">COURSE</td><td bgcolor="#7c9cab" align="center"><FONT COLOR="WHITE" size="5px">FEE</td>
+              <td bgcolor="#6a8795"><FONT COLOR="WHITE" size="5px">ELIGIBILITY</td></tr>
+            <tr><td><font color="#0AA6EF"><a ID="LINKS" href="BTECH.HTML"> B.Tech</a></font></td><td>₹60,000 (1st Year Fees)</td><td>10+2</td></tr>
+            <tr><td><font color="#0AA6EF"><a ID="LINKS" href="MBA.HTML">MBA</a></font></td><td>₹75,000 (1st Year Fees)</td><td>Graduation</td></tr>
+            <tr><td><font color="#0AA6EF"><a ID="LINKS" href="BARCH.HTML">B.ARCH</a></font></td><td>₹110,000 (1st Year Fees)</td><td>10+2</td></tr>
+            <tr><td><font color="#0AA6EF"><a ID="LINKS" href="POLYTECHNIC.HTML">POLYTECHNIC</a></font></td><td>₹40,000 (1st Year Fees)</td><td>10</td></tr>
+            <tr><td><font color="#0AA6EF"><a ID="LINKS" href="BCA.HTML">BCA</a></font></td><td>₹40,000 (1st Year Fees)</td><td>10+2</td></tr>
+            <tr><td><font color="#0AA6EF"><a ID="LINKS" href="BPHARMA.HTML">B.PHARMA</a></font></td><td>₹110,000 (1st Year Fees)</td><td>10+2</td></tr>
+          </table><BR>       <FONT COLOR="#0AA6EF">   NOTE:</FONT> THE FEE WILL INCREASE BY ₹3000 EVERY YEAR
+        </center><br><br>
+           </center><hr HEIGHT="50PX" color="black">
+      </DIV>
+    
+
+      <DIV ID="FACILITIES">
+        <HEADER ID="ABOUT_US"><u><b><FONT SIZE="6CM">FACILITIES</FONT></b></u></HEADER><br><br>
+        <SECTION>
+          <table border="5px" bordercolor="#ddd" cellspacing="0" cellpadding="5">
+            <tr><td align="center"><img src="library.png" width="25%" height="25%"><br><FONT SIZE="5PX" COLOR="GRAY">LIBRARY</FONT></td>
+              <td align="center"><img  src="CAFE.png" width="25%" height="25%"><br><FONT SIZE="5PX" COLOR="GRAY">CAFE</FONT></td>
+              <td align="center"><img  src="hostel.png" width="25%" height="25%"><br><FONT SIZE="5PX" COLOR="GRAY">HOSTEL</FONT></td></tr>
+            
+            <tr><td align="center"><img  src="sports.png" width="25%" height="25%"><br><FONT SIZE="5PX" COLOR="GRAY">SPORT COMPLEX</FONT></td>
+              <td align="center"><img  src="gym.png" width="25%" height="25%"><br><FONT SIZE="5PX" COLOR="GRAY">GYM</FONT></td>
+              <td align="center"><img src="hospital-bed.png" width="25%" height="25%"><br><FONT SIZE="5PX" COLOR="GRAY">MEDICAL FACILITY</FONT></td></tr>
+            
+            <tr><td align="center"><img src="wifi.png" width="30%" height="30%"><br><FONT SIZE="5PX" COLOR="GRAY">WI-FI CAMPUS</FONT></td>
+              <td align="center"><img  src="bus.png" width="30%" height="30%"><br><FONT SIZE="5PX" COLOR="GRAY">TRANSPORTATION</FONT></td>
+              <td align="center"><img src="laboratory.png" width="30%" height="30%"><br><FONT SIZE="5PX" COLOR="GRAY">LABS</FONT></td></tr>
+            
+          
+          </table>
+ 
+        </SECTION>
+
+      </DIV>
+      <DIV ID="image_section">
+        <hr color="white">
+           <HEADER ID="IMAGES"><u><b>TOP-PLACEMENTS <i class="fa fa-mortar-board" style="font-size:48px;color:red"></i></b></u></HEADER>
+           <hr HEIGHT="50PX" color="black">
+           <section bgcolor=white>
+           <center>
+           <img class ="imgP" src="toppers.png" >&nbsp;&nbsp;
+           <img class="imgP" src="toppers1.png" >
+           
+           <BR><BR><BR>
+           </center>
+       </section></DIV>
+       <hr HEIGHT="50PX" color="black">
+       <br><br>
+
+<div id="admission_form">
+  <BR>
+ <CENTER><H3><FONT COLOR="WHITE" SIZE="15PX"> ADMISSION FORM</FONT></H3></CENTER>
+ <HR COLOR="WHITE"></HR>
+
+<table id="register" align="center" cellpadding = "10">
+ <FORM>
+
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" maxlength="30">
+
+</td>
+</tr>
+ 
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" maxlength="30">
+
+</td>
+</tr>
+ 
+<tr>
+<td>DATE OF BIRTH</td>
+ 
+<td>
+<select>
+   
+
+
+   <option value="1">1</option>
+   <option value="2">2</option>
+    <option value="3">3</option>
+ 
+
+    <option value="4">4</option>
+
+
+    <option value="5">5</option>
+
+    <option value="6">6</option>
+
+    <option value="7">7</option>
+   <option value="8">8</option>
+ <option value="9">9</option><option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option><option value="15">15</option>
+    <option value="16">16</option>
+   <option value="17">17</option><option value="18">18</option>
+    <option value="19">19</option>
+   <option value="20">20</option>
+   <option value="21">21</option>
+   <option value="22">22</option>
+   <option value="23">23</option>
+   <option value="24">24</option>
+    <option value="25">25</option>
+     <option value="26">26</option><option value="27">27</option><option value="28">28</option>
+   <option value="29">29</option><option value="30">30</option>
+  <option value="31">31</option></select>
+ 
+    <select>
+    <option value="-1">Month:</option>
+     <option value="January">Jan</option>
+     <option value="February">Feb</option>
+    <option value="March">Mar</option>
+     <option value="April">Apr</option>
+     <option value="May">May</option>
+     <option value="June">Jun</option>
+     <option value="July">Jul</option>
+     <option value="August">Aug</option>
+     <option value="September">Sep</option>
+     <option value="October">Oct</option>
+     <option value="November">Nov</option>
+     <option value="December">Dec</option>
+</select>
+ 
+<select>
+ 
+<option value="-1">Year:</option>
+
+   <option value="2008">2008</option>
+   <option value="2007">2007</option>
+   <option value="2006">2006</option>
+   <option value="2005">2005</option>
+   <option value="2004">2004</option>
+   <option value="2003">2003</option>
+   <option value="2002">2002</option>
+   <option value="2001">2001</option>
+   <option value="2000">2000</option>
+ 
+
+</select>
+</td>
+</tr>
+ 
+<tr><td>EMAIL ID</td>
+<td><input type="email" name="Email_Id" maxlength="100"></td>
+</tr>
+ 
+<tr><td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mobile_Number" maxlength="10" >
+
+</td>
+</tr>
+ 
+<tr><td>GENDER</td>
+<td>Male <input type="radio" name="Gender" value="Male" >
+Female <input type="radio" name="Gender" value="Female" >
+</td>
+</tr>
+ 
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+</tr>
+ 
+<tr>
+<td>CITY</td>
+<td><input type="text" name="City" maxlength="30" >
+
+</td>
+</tr>
+ 
+<tr>
+<td>PIN CODE</td>
+<td><input type="text" name="Pin_Code" maxlength="6" >
+
+</td>
+</tr>
+ 
+<tr>
+<td>STATE</td>
+<td><input type="text" name="State" maxlength="30">
+
+</td>
+</tr>
+ 
+
+ 
+<tr>
+<td>HOBBIES <br><br><br></td>
+ 
+<td>
+ 
+  Singing<input type="checkbox"  value="Singing" >
+Dancing<input type="checkbox"  value="Dancing" >
+Painting<input type="checkbox"  value="Painting" >
+
+Others
+<input type="checkbox"  value="Other">
+<input type="text"  maxlength="30">
+</td>
+</tr>
+ 
+<tr>
+<td>QUALIFICATION <br><br><br><br><br><br><br></td>
+ 
+<td>
+<table>
+ 
+<tr>
+
+<td align="center"><b>Examination</b></td>
+<td align="center"><b>Board</b></td>
+<td align="center"><b>Percentage</b></td>
+<td align="center"><b>Year of Passing</b></td>
+</tr>
+ 
+<tr>
+
+<td>Class X</td>
+<td><input type="text" name="ClassX" maxlength="30"></td>
+<td><input type="text" name="ClassXPercentage" maxlength="30"></td>
+<td><input type="text" name="ClassXYear" maxlength="30"></td>
+</tr>
+ 
+<tr>
+
+<td>Class XII</td>
+<td><input type="text" name="ClassXII" maxlength="30"></td>
+<td><input type="text" name="ClassXIIPercentage" maxlength="30"></td>
+<td><input type="text" name="ClassXIIYrOfPassing" maxlength="30"></td>
+</tr>
+ 
+
+ 
+</table>
+ 
+</td>
+</tr>
+ 
+<tr>
+<td>COURSES<br>APPLIED FOR</td>
+<td>
+BCA
+<input type="radio" value="BCA">
+B.Pharma
+<input type="radio"  value="BPHARMA">
+B.Tech
+<input type="radio" value="BTECH">
+B.ARCH
+<input type="radio"  value="B.ARCH">
+MBA
+<input type="radio"  value="MBA">
+POLYTECHNIC
+<input type="radio"  value="POLYTECHNIC">
+</td>
+</tr>
+<TR>
+  <TD>
+UPLOAD YOUR PHOTO
+</TD>
+<TD><INPUT TYPE="FILE"></INPUT></TD>
+
+</TR>
+ 
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+&nbsp;&nbsp;
+<input type="reset" value="Reset">
+
+</td>
+</tr>
+</table>
+</FORM>
+<BR><BR><br>
+ 
+</form>
+ </div>
+      <DIV ID="IMG">
+     <DIV ID="image_section">
+       <hr HEIGHT="50PX" color="black">
+        <HEADER ID="IMAGES"><b>IMAGES  &nbsp; <i class="fa fa-image" style="font-size:40px;color:red"></i></b></HEADER>
+        <hr HEIGHT="50PX" color="black">
+        <section bgcolor=white>
+        <center><map name="shapemap">
+          <!-- area tag contained image. -->
+          <area shape="poly" coords="59,31,28,83,91,83" href="image section1.png" alt="Triangle">
+  
+          <area shape="circle" coords="155,56,26" href="https://media.geeksforgeeks.org/wp-content/uploads/20190227165934/area3.png" alt="Circle">
+  
+          <area shape="rect" coords="224,30,276,82" href="https://media.geeksforgeeks.org/wp-content/uploads/20190227170021/area4.png" alt="Square">
+      </map>
+            <img class="img" src="image6.jpeg" >
+        <img class ="img" src="image section1.png" >
+        
+        <img class="img" src="image2.jpg" ><BR><BR><BR>
+        <img class="img" src="image3.jpg" >
+        
+        <img class="img" src="image4.png" >
+        
+        <hr HEIGHT="50PX" color="black"></center>
+    </section>
+  </DIV>
+</DIV>
+   
+    <DIV ID="VIDEO_section">
+        <hr color="white">
+           <HEADER ID="IMAGES"><u><b>VIDEOS &nbsp;<i class="fa fa-video-camera" style="font-size:48px;color:red"></i></b></u></HEADER>
+           <hr HEIGHT="50PX" color="black">
+           <section bgcolor=white>
+           <center>
+            
+           <embed class ="img" src="Sanskar Educational Group.mp4">
+           <embed class="img" src="Why choose Sanskar Educational Group_HIGH.mp4" >
+           <embed class="img" src="Cheteshwar Pujara Thoughts On Sanskar Educational Group_HD.mp4" >
+           <BR><BR><BR>
+           </center>
+       </section></DIV>
+         
+       
+    <DIV ID="FOOTER">
+      <img src="footer.png">
+      <hr color="gray">
+
+<center><table  border="0" bordercolor="gray" cellspacing="10" cellpadding="28px">
+  <tr>
+    <td><font color="white" size="5px">Contact Details</td>
+    <td><font color="white" size="5px">About SEG</td>
+    <td><font color="white" size="5px">Locate Us</td>
+  
+
+  </tr>
+<tr>
+  <td><FONT COLOR="GRAY">Mob : 7251000120 - 7251000121<BR>
+    E-mail : info@sanskar.org</td>
+  <td><FONT COLOR="GRAY">Sanskar Educational Group (SEG), established <br>in 2005,
+     is spread over 20 acres of lush green campus<br> under the aegis of Shree Ganpati Education Society.<br> SEG offers academic programs 
+     in the domains of<br> Engineering, Management, Architecture and Pharmacy.</td>
+  <td><img src="location.jpg" height="300px" width="500px"></td>
+  
+  
+</table>
+<hr color="gray"><FONT COLOR="WHITE">
+@All Rights reserved 2022-23, AKSHAY TEOTIA</FONT>
+</center>
+
+
+
+    </DIV>
+    
+       
+
+   <script src="javascr.js">
+    
+   </script>
+</body>
+</html>
